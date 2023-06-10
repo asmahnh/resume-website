@@ -1,0 +1,187 @@
+*{
+    text-decoration: none;
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #152238;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+}
+.menu{
+    float: right;
+}
+header{
+    position: sticky;
+    background-color: #D31A38 ;
+    top: 0;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 60px;
+    position: sticky;
+    top: 0;
+    
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    color: white;
+    font-weight: hold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: #D31A38;
+}
+.prolog{
+    float: left;
+    margin:auto;
+    width: 50%;
+    height: 400px;
+}
+.resume-hello{
+    float: left;
+    margin-top: 140px;
+    margin-left: 80px;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+}
+.resume-name{
+    float: left;
+    margin-top: 0px;
+    margin-left:80px;
+    font-size: 45px;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.resume-position{
+    float: left;
+    margin-top: 5px;
+    margin-left: 80px;
+    font-size: 25px; 
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn-contact-me{
+    float: left;
+    background-color: #D31A38;
+    color: #F2F0ED;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 80px;
+    border: 20px;
+    border-radius: 8px;
+    padding: 15px 35px;
+}
+.wrapper-aboutme{
+    width: 100%;
+    margin: auto;
+}
+.who-am-i{
+    text-align: center;
+    margin-top: 580px;
+    font-size: 40px;
+    color: whitesmoke;
+}
+.vertical{
+    border-left: 5px solid #D31A38;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 675px;
+}
+.description-about-me{
+    text-align: center;
+    color: #D31A38;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 0px;
+}
+.about-me-name{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 25px;
+    margin-top:15px;
+    margin-right: 0;
+}
+.about-me-details{
+    text-align: justify;
+    color: whitesmoke;
+    font-size: 15px;
+    margin-top:20px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.btn-resume-cv{
+    float: left;
+    background-color: #D31A38;
+    color: #F2F0ED;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 100px;
+    border: 20px;
+    border-radius: 8px;
+    padding: 10px 30px;
+}
+.wrapper-services{
+    width: 100%;
+    margin: auto;
+}
+.services-desc{
+    text-align: left;
+    font-size: 15px;
+    margin-top: 250px;
+    margin-left: 100px;
+    color: whitesmoke;
+}
+.skills{
+    text-align: left;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 100px;
+    color: #D31A38;
+}
+.horizontal{
+    border-bottom: 5px solid #D31A38;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    width: 11%;
+}
+.column{
+    margin-top:0px;
+    width: 70%;
+    display: flex;
+    margin-left: 100px;
+
+}
+.card{
+    flex-wrap: wrap;
+    background-color: #D31A38;
+    margin-top: 0px;
+    padding: 20px 5px;
+    margin-bottom: 20px;
+    width: 25%;   
+}
